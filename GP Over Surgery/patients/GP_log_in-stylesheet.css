@@ -1,0 +1,126 @@
+body{
+	background-color: #D7DCE5;
+}
+#header{
+	display: flex;
+	background-color: #86A7F4;
+	border:solid;
+	border-color: white; 
+	margin: 0% 10%;
+	height: 100px;
+	align-items: stretch;
+	border-radius: 5px;
+}
+#contimg{
+	border-right:solid;
+	border-color: white;
+}
+#img{
+	max-height: 100%;
+	max-width: 100%;
+	width: 250px;	
+}
+#conthead{
+	margin-left: 15px;
+}
+#h1head{
+	margin-top: 40px;
+	color: white;
+	font-family: Verdana;
+	font-size: 45px;
+	word-spacing: 15px;
+}
+#central{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-top:solid;
+	border-color: #3259C3;
+	margin: 15px 10% 0% 10%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+#contcent{
+	margin-top:-10%;
+	height: 25%;
+	width: 90%;
+}
+#h1cent{
+	font-size: 20px;
+	font-family: Verdana;
+	text-align: center;
+	line-height: 4vh;
+}
+#ul{
+	text-align: justify;
+	display: inline-block;
+}
+#panelcent{
+	margin-top: 3%;
+	height: 50%;
+	width: 50%;
+	border:solid;
+	border-color: #3259C3;
+	border-radius: 10px;
+	background-color:#3259C3;
+}
+#panelcentbody{
+	height: 100%;
+	background-color:#3259C3;
+	border-radius: 10px;
+	
+
+}
+#panelcentbody:hover{
+	 background: #27469B;
+	 border-radius: 10px;
+}
+#formlogin{
+	height: 100%;
+	padding: 5%;
+	color: white;
+	text-align: center;
+	font-size: 17.5px;
+	font-family: Arial;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	border-radius: 9px;
+
+}
+#username{
+	height: 40px;
+	color: black;
+}
+#pwd{
+	height: 40px;
+	color: black;
+}
+#icons{
+	color: #27469B;
+}
+#loginbtn{
+	width: 100%;
+	height: 40px;
+	font-size: 17.5px;
+	border-color: black; 
+}
+#registerlink{
+	font-size: 15px;
+}
+#errorwrongdet{
+	margin-top: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 0px;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);
+	font-size: 12px;	
+}
+
+

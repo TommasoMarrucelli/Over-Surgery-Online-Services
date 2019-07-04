@@ -1,0 +1,439 @@
+body{
+	background-color: #D7DCE5;
+}
+#header{
+	display: flex;
+	background-color: #86A7F4;
+	border:solid;
+	border-color: white; 
+	margin: 0% 10%;
+	padding: 0%;
+	height: 75px;
+	align-items: stretch;
+	border-radius: 5px;
+}
+#contimg{
+	border-right:solid;
+	border-color: white;
+}
+#img{
+	max-height: 100%;
+	max-width: 100%;
+	width: 200px;	
+}
+#conthead{
+	margin-left: 15px;
+}
+#h1head{
+	margin-top: 1.5%;
+	color: white;
+	font-family: Verdana;
+	font-size: 45px;
+	word-spacing: 15px;
+}
+#navbar{
+	margin: 0% 10%;
+	background-color:#43494E ;
+}
+.navbar-nav> li{
+padding-left: 65px;
+border-radius: 5px;
+
+
+}
+#navbar a{
+	color: #E87205;
+	border-radius: 5px;
+}
+#navbar a:hover{
+	background-color: #F5A911;
+	color: white;
+	border-radius: 5px;
+}
+#hello_user{
+	
+	color: white;
+	line-height: 50px;
+	height: auto;
+	font-size: 15px;	
+}
+#central{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin: 0% 10% 0% 10%;
+	height: 100vh;
+	align-items: center;
+	padding: 0px;
+	border-radius: 5px;
+	color: white;
+}
+#gpform{
+	color: white;
+
+}
+#bookingform{
+	padding: 5%;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin-top: 5px;
+
+}
+#bookingform>div{
+	color: white;
+	font-family: Verdana;
+}
+#bookingcont>p{
+	color: white;
+	font-family: Verdana;
+	font-size: 12px;
+	margin-top: 3%;
+}
+#gpform{
+	color: white;
+
+}
+
+#doctor{
+	color: black;
+	margin: 10px 10px 10px 10px;
+}
+#date{
+	color: black;
+	margin: 10px 10px 10px 10px;
+}
+#time{
+	margin: 10px 10px 10px 10px;
+}
+#reason{
+	color: black;
+	margin: 10px 10px 10px 5px;
+}
+#bookingbtn{
+	width: 100%;
+	height: 40px;
+	margin-top: 5%;
+	font-size: 17.5px;
+	border-color: black; 
+	}
+#articlecont{
+	height: 10%;
+	width: 90%;
+	margin-top: 1%;
+}
+#contcent{
+	height: 80%;
+	width: 90%;
+	background-color: #3259C3;
+	border-radius: 10px;
+}
+#contcent:hover{
+	 background: #27469B;
+}
+#h1cent{
+	font-size: 20px;
+	font-family: Verdana;
+	text-align: center;
+}
+#conttable{
+	margin-top: 0%;
+	width: 100%;
+	height: 22%;
+}
+#table{
+	margin: 5% 10% 2% 10%;
+	width: 80%;
+	font-family: Verdana;
+	font-size: 15px;
+	color: white;
+	border: solid 2px;
+	border-collapse: collapse;
+	border-color: white;
+	text-align: center;
+	background-color: #86A7F4;
+}
+#tr1{
+	background-color:#E87205 ;
+	color: white;
+	border: solid;
+	border-color: white;
+}
+#th1{
+	border: solid 1px;
+	padding-left: 10px;
+	
+}
+#th2{
+	border:solid 1px;
+	padding-left: 10px;
+	
+}
+#th3{
+	border:solid 1px;
+	padding-left: 10px;
+	
+}
+#th4{
+	border: solid 1px;
+	padding-left: 10px;
+	
+}
+#th5{
+	border:solid 1px;
+	padding-left: 10px;
+	
+}
+#th6{
+	border:solid 1px;
+	padding-left: 10px;
+	
+}
+#table>th,td{
+	border: solid 2px;
+}
+#contform{
+	margin-top: 0%;
+	width: 100%;
+	height: 80%;
+}
+#h1form{
+	padding-left: 15%;
+	padding-right: 15%;
+	color: white;
+	font-size: 12px;
+	font-family: Verdana;
+}
+#formcont{
+	margin-top: 5%;
+	font-family: Verdana;
+}
+#appnumbform{
+	color: white;
+	font-family: Verdana;
+}
+#appdateform{
+	color: white;
+	margin-top: 3%;
+	font-family: Verdana;
+}
+#appid{
+	color: black;
+	margin-left: 5px;
+}
+#appform{
+	margin-left: 0%;
+	margin-top: 3%;
+	color: white;
+	font-family: Verdana;
+	text-align: left;	
+}
+
+#appdate{
+	color: black;
+	margin-left: 137.5px;
+}
+#apptime{
+	color: black;
+	margin-left: 133px;
+}
+#appreason{
+	margin-left: 114px;
+	color: black;
+}
+#contbutton{
+	margin-top: 5%;
+
+}
+#success_appup{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: rgb(106, 221, 106);
+	background-color: rgb(106, 221, 106, 0.9);
+	text-align: center;
+}
+#success_appdel{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: rgb(106, 221, 106);
+	background-color: rgb(106, 221, 106, 0.9);
+	text-align: center;
+}
+#error_noupdate{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_nocancel{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_day_off{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_nodate{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_notime_reason{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);
+}
+#error_noappnumb{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_wrongnumb{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_wrongpatid{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_nodoc_date{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_notime_reason{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_5app{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#error_day_off{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: tomato;
+	background-color: rgb(242, 106, 99, 0.9);	
+}
+#success_app{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	border-color: rgb(106, 221, 106);
+	background-color: rgb(106, 221, 106, 0.9);
+	text-align: center;
+}

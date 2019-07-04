@@ -1,0 +1,116 @@
+body{
+	background-color: #D7DCE5;
+}
+#header{
+	display: flex;
+	background-color: #86A7F4;
+	border:solid;
+	border-color: white; 
+	margin: 0% 10%;
+	padding: 0%;
+	height: 75px;
+	align-items: stretch;
+	border-radius: 5px;
+}
+#contimg{
+	border-right:solid;
+	border-color: white;
+}
+#img{
+	max-height: 100%;
+	max-width: 100%;
+	width: 200px;	
+}
+#conthead{
+	margin-left: 15px;
+}
+#h1head{
+	margin-top: 1.5%;
+	color: white;
+	font-family: Verdana;
+	font-size: 45px;
+	word-spacing: 15px;
+}
+#navbar{
+	margin: 0% 10%;
+	background-color:#43494E ;
+}
+.navbar-nav> li{
+padding-left: 65px;
+border-radius: 5px;
+
+
+}
+#navbar a{
+	color: #E87205;
+	border-radius: 5px;
+}
+#navbar a:hover{
+	background-color: #F5A911;
+	color: white;
+	border-radius: 5px;
+}
+	
+}
+#dropdown{
+	padding: 0%;
+	border-radius: 5px;
+	border-color:  #111;
+}
+#hello_user{
+	
+	color: white;
+	line-height: 50px;
+	height: auto;
+	font-size: 15px;	
+}
+
+#central{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin: 0% 10% 0% 10%;
+	height: 100vh;
+	align-items: center;
+	padding: 0px;
+	border-radius: 5px;
+}
+#articlecont{
+	width: 90%;
+	margin-top: 1%;
+}
+#h1cent{
+	font-size: 20px;
+	font-family: Verdana;
+	text-align: center;
+	line-height: 4vh;
+}
+#contcent{
+	background-color: #3259C3;
+	width: 90%;
+	height: 40%;
+	margin-top: 1%;
+	border-radius: 10px;
+}
+#GPduty{
+	width: 100%;
+	margin-top: 5%;
+	text-align: left;
+}
+#GPduty>button{
+	margin-left: 3%;
+}
+#Nurseduty{
+	margin-top: 5%;
+	text-align: left;
+}
+#Nurseduty>button{
+ 	margin-left: 3%;
+ 	background-color: #E87205;
+ 	border-color: #E87205;
+
+}
+
+
+
+
